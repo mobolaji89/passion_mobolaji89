@@ -72,7 +72,7 @@
 <part>id</part>
 </key>
 </table>
-<table x="538" y="327" name="Comments">
+<table x="538" y="327" name="comments">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
