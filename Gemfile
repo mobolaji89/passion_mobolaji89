@@ -24,3 +24,4 @@ group :test do
 end
 
 gem 'instagram'
+gem 'dotenv'

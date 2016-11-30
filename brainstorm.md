@@ -15,7 +15,7 @@ Lookup (Search)
       * Home
       * News
       * About
-      * Search Box
+      * Search Box (First feature to build)
   - Most Recent 5 Posts (Updated as users make posts - #hashtag?)
 ## News
   - Music Equipment/Software/Tech News (Most Recent 5 Posts by me)
@@ -30,3 +30,5 @@ Lookup (Search)
 
 #Gems
 Instagram API (installed)
+
+Authen
