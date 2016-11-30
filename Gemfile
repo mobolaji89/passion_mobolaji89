@@ -24,4 +24,6 @@ group :test do
 end
 
 gem 'instagram'
+gem 'unirest'
+
 gem 'dotenv'

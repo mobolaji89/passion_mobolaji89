@@ -20,6 +20,8 @@ require "sinatra/reloader" if development?
 require 'pp' if development?
 require 'erb'
 
+require 'unirest'
+
 require 'dotenv'
 Dotenv.load
 

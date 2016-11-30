@@ -31,4 +31,4 @@ Lookup (Search)
 #Gems
 Instagram API (installed)
 
-Authen
+Authentication
