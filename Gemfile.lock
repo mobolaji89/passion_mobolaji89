@@ -37,7 +37,7 @@ GEM
       multi_json (~> 1.0, >= 1.0.3)
     json (1.8.3)
     mime-types (1.25.1)
-    minitest (5.9.1)
+    minitest (5.10.0)
     multi_json (1.12.1)
     multipart-post (2.0.0)
     pg (0.19.0)

@@ -21,6 +21,7 @@ require 'pp' if development?
 require 'erb'
 
 require 'unirest'
+require 'instagram'
 
 require 'dotenv'
 Dotenv.load
