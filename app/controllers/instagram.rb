@@ -3,8 +3,8 @@ enable :sessions
 CALLBACK_URL = "http://localhost:9393/auth/callback"
 
 Instagram.configure do |config|
-  p config.client_id = ENV['CLIENT_ID']
-  p config.client_secret = ENV['CLIENT_SECRET']
+  config.client_id = ENV['CLIENT_ID']
+  config.client_secret = ENV['CLIENT_SECRET']
   # For secured endpoints only
   #config.client_ips = '<Comma separated list of IPs>'
 end

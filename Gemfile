@@ -27,3 +27,4 @@ gem 'instagram'
 gem 'unirest'
 
 gem 'dotenv'
+gem 'bcrypt'
