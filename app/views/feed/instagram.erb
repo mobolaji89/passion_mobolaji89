@@ -1,10 +1,10 @@
-<div class="row">
+<div class="row ig-feed-title">
   <div class="col-md-6 col-md-offset-3">
     <h2> <%= @user.username %>'s <b>recent media</b></h2>
     <br>
   </div>
 </div>
-<div class="row">
+<div class="row ig-feed">
     <div class="col-md-8 col-md-offset-2">
     <% for media_item in @client.user_recent_media %>
       <a data-imagelightbox="a" href= '<%= media_item.images.standard_resolution.url%>'>
