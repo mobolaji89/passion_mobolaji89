@@ -1,6 +1,33 @@
 body {
   padding-top: 50px;
 }
+
+.register-form {
+  margin-top: 15%;
+}
+
+#register-form-title {
+  padding-bottom: 10px;
+}
+
+.form-main {
+  padding-top: 5px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: medium solid gray;
+  border-radius: 10px;
+  height: 20%;
+  /*margin:0 auto;*/
+  text-align: center;
+}
+
+.form-group {
+  padding-bottom: 10px;
+  width: 85%;
+  margin:0 auto;
+}
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
