@@ -28,11 +28,7 @@ get "/feed" do
 end
 
 get "/user_recent_media" do
-  client = Instagram.client(:access_token => session[:access_token])
-  user = client.user
-  html = "<h1>#{user.username}'s recent media</h1>"
-  for media_item in client.user_recent_media
-    html << "<div style='float:left;'><img src='#{media_item.images.standard_resolution.url}'><br/> <br/>Likes: #{media_item.likes[:count]}</div>"
-  end
-  html
+  @client = Instagram.client(:access_token => session[:access_token])
+  @user = @client.user
+  erb :"/feed/instagram"
 end

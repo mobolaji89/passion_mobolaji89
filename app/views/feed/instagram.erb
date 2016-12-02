@@ -1,4 +1,4 @@
-<div>
-  <h1>Click Below:</h1>
-  <a href='/user_recent_media'>User Recent Media</a> Calls user_recent_media - Get a list of a user's most recent media
-</div>
+<h2> <%= @user.username %>'s <b>recent media</b></h2>
+<% for media_item in @client.user_recent_media %>
+  <img src='<%= media_item.images.thumbnail.url %>'>
+<% end %>
