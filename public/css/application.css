@@ -3,7 +3,12 @@ body {
 }
 
 #header-icon {
-  padding-top: 10.5px;  
+  padding-top: 10.5px;
+}
+
+#news_container {
+  margin-right: 30px;
+  margin-left: 0;
 }
 
 .register-form {
