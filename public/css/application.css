@@ -6,8 +6,12 @@ body {
   margin-top: 15%;
 }
 
-#register-form-title {
-  padding-bottom: 10px;
+.login-form {
+  margin-top: 15%;
+}
+
+.form-title {
+  padding-bottom: 15px;
 }
 
 .form-main {

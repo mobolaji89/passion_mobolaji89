@@ -3,7 +3,7 @@ get '/users/new' do
 end
 
 post '/users' do
-  @user = User.new(email: params[:email], password: params[:password])
+  @user = User.new(username: params[:username], email: params[:email], password: params[:password])
   @user.save
   if @user.save
     redirect '/'
