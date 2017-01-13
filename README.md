@@ -1,4 +1,1 @@
-sinatra_skeleton
-================
-
-Sinatra skeleton from dev bootcamp
+##Music Blog - Dev Bootcamp Passion Project made with Ruby and Sinatra
